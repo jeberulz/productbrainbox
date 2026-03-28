@@ -1,40 +1,27 @@
 {
-  "name": "productbrainbox-marketing",
-  "version": "1.0.0",
-  "description": "Marketing website for ProductBrainBox — 360 workspace for product designers",
+  "name": "productbrainbox",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@mdx-js/loader": "^3.1.0",
-    "@mdx-js/react": "^3.1.0",
-    "@next/mdx": "^15.1.6",
-    "@vercel/analytics": "^1.4.1",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.0.0",
-    "gray-matter": "^4.0.3",
-    "gsap": "^3.12.5",
     "next": "^15.1.6",
-    "next-mdx-remote": "^5.0.0",
-    "phosphor-react": "^1.4.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "reading-time": "^1.5.0",
-    "tailwind-merge": "^3.4.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.24",
     "eslint": "^9.20.0",
     "eslint-config-next": "^15.1.6",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^4.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.7.3"
   }
 }
